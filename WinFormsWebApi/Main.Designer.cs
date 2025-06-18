@@ -98,6 +98,7 @@
             btnCarregar.TabIndex = 4;
             btnCarregar.Text = "Carregar";
             btnCarregar.UseVisualStyleBackColor = true;
+            btnCarregar.Click += btnCarregar_Click;
             // 
             // btnAdicionar
             // 
@@ -107,6 +108,7 @@
             btnAdicionar.TabIndex = 4;
             btnAdicionar.Text = "Adicionar";
             btnAdicionar.UseVisualStyleBackColor = true;
+            btnAdicionar.Click += btnAdicionar_Click;
             // 
             // btnAtualizar
             // 
@@ -116,6 +118,7 @@
             btnAtualizar.TabIndex = 4;
             btnAtualizar.Text = "Atualizar";
             btnAtualizar.UseVisualStyleBackColor = true;
+            btnAtualizar.Click += btnAtualizar_Click;
             // 
             // btnRemover
             // 
@@ -125,6 +128,7 @@
             btnRemover.TabIndex = 4;
             btnRemover.Text = "Remover";
             btnRemover.UseVisualStyleBackColor = true;
+            btnRemover.Click += btnRemover_Click;
             // 
             // dataGridView1
             // 
