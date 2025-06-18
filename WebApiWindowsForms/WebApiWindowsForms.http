@@ -1,0 +1,6 @@
+@WebApiWindowsForms_HostAddress = http://localhost:5025
+
+GET {{WebApiWindowsForms_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
