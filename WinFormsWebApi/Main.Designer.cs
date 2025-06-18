@@ -31,13 +31,13 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
+            txtNome = new TextBox();
+            txtPreco = new TextBox();
+            txtEstoque = new TextBox();
+            btnCarregar = new Button();
+            btnAdicionar = new Button();
+            btnAtualizar = new Button();
+            btnRemover = new Button();
             dataGridView1 = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -45,91 +45,91 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(51, 47);
+            label1.Location = new Point(15, 21);
             label1.Name = "label1";
-            label1.Size = new Size(38, 15);
+            label1.Size = new Size(43, 15);
             label1.TabIndex = 0;
-            label1.Text = "label1";
+            label1.Text = "Nome:";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(48, 75);
+            label2.Location = new Point(15, 52);
             label2.Name = "label2";
-            label2.Size = new Size(38, 15);
+            label2.Size = new Size(40, 15);
             label2.TabIndex = 1;
-            label2.Text = "label2";
+            label2.Text = "Preço:";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(51, 102);
+            label3.Location = new Point(12, 81);
             label3.Name = "label3";
-            label3.Size = new Size(38, 15);
+            label3.Size = new Size(52, 15);
             label3.TabIndex = 2;
-            label3.Text = "label3";
+            label3.Text = "Estoque:";
             // 
-            // textBox1
+            // txtNome
             // 
-            textBox1.Location = new Point(111, 39);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(119, 23);
-            textBox1.TabIndex = 3;
+            txtNome.Location = new Point(75, 18);
+            txtNome.Name = "txtNome";
+            txtNome.Size = new Size(170, 23);
+            txtNome.TabIndex = 3;
             // 
-            // textBox2
+            // txtPreco
             // 
-            textBox2.Location = new Point(111, 70);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(119, 23);
-            textBox2.TabIndex = 3;
+            txtPreco.Location = new Point(75, 49);
+            txtPreco.Name = "txtPreco";
+            txtPreco.Size = new Size(119, 23);
+            txtPreco.TabIndex = 3;
             // 
-            // textBox3
+            // txtEstoque
             // 
-            textBox3.Location = new Point(111, 99);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(119, 23);
-            textBox3.TabIndex = 3;
+            txtEstoque.Location = new Point(75, 78);
+            txtEstoque.Name = "txtEstoque";
+            txtEstoque.Size = new Size(88, 23);
+            txtEstoque.TabIndex = 3;
             // 
-            // button1
+            // btnCarregar
             // 
-            button1.Location = new Point(56, 158);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 4;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnCarregar.Location = new Point(75, 127);
+            btnCarregar.Name = "btnCarregar";
+            btnCarregar.Size = new Size(75, 23);
+            btnCarregar.TabIndex = 4;
+            btnCarregar.Text = "Carregar";
+            btnCarregar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnAdicionar
             // 
-            button2.Location = new Point(155, 158);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 4;
-            button2.Text = "button1";
-            button2.UseVisualStyleBackColor = true;
+            btnAdicionar.Location = new Point(174, 127);
+            btnAdicionar.Name = "btnAdicionar";
+            btnAdicionar.Size = new Size(75, 23);
+            btnAdicionar.TabIndex = 4;
+            btnAdicionar.Text = "Adicionar";
+            btnAdicionar.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnAtualizar
             // 
-            button3.Location = new Point(250, 158);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 23);
-            button3.TabIndex = 4;
-            button3.Text = "button1";
-            button3.UseVisualStyleBackColor = true;
+            btnAtualizar.Location = new Point(269, 127);
+            btnAtualizar.Name = "btnAtualizar";
+            btnAtualizar.Size = new Size(75, 23);
+            btnAtualizar.TabIndex = 4;
+            btnAtualizar.Text = "Atualizar";
+            btnAtualizar.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnRemover
             // 
-            button4.Location = new Point(345, 158);
-            button4.Name = "button4";
-            button4.Size = new Size(75, 23);
-            button4.TabIndex = 4;
-            button4.Text = "button1";
-            button4.UseVisualStyleBackColor = true;
+            btnRemover.Location = new Point(364, 127);
+            btnRemover.Name = "btnRemover";
+            btnRemover.Size = new Size(75, 23);
+            btnRemover.TabIndex = 4;
+            btnRemover.Text = "Remover";
+            btnRemover.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(51, 222);
+            dataGridView1.Location = new Point(50, 166);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(414, 150);
             dataGridView1.TabIndex = 5;
@@ -138,15 +138,15 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(510, 336);
             Controls.Add(dataGridView1);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(btnRemover);
+            Controls.Add(btnAtualizar);
+            Controls.Add(btnAdicionar);
+            Controls.Add(btnCarregar);
+            Controls.Add(txtEstoque);
+            Controls.Add(txtPreco);
+            Controls.Add(txtNome);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -162,13 +162,13 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
+        private TextBox txtNome;
+        private TextBox txtPreco;
+        private TextBox txtEstoque;
+        private Button btnCarregar;
+        private Button btnAdicionar;
+        private Button btnAtualizar;
+        private Button btnRemover;
         private DataGridView dataGridView1;
     }
 }
