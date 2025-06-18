@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36203.30 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiWindowsForms", "WebApiWindowsForms\WebApiWindowsForms.csproj", "{0433FFA2-4906-4F7C-A1EA-AE2F0AFF0DD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsWebApi", "WinFormsWebApi\WinFormsWebApi.csproj", "{58F3A868-B240-4676-86C1-5C9F29B9271E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0433FFA2-4906-4F7C-A1EA-AE2F0AFF0DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0433FFA2-4906-4F7C-A1EA-AE2F0AFF0DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0433FFA2-4906-4F7C-A1EA-AE2F0AFF0DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58F3A868-B240-4676-86C1-5C9F29B9271E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F3A868-B240-4676-86C1-5C9F29B9271E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F3A868-B240-4676-86C1-5C9F29B9271E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F3A868-B240-4676-86C1-5C9F29B9271E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
